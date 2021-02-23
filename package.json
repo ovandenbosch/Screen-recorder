@@ -1,6 +1,6 @@
 {
-  "name": "screencapture",
-  "productName": "screencapture",
+  "name": "Screen Capture",
+  "productName": "Screen Capture",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": "src/index.js",
@@ -19,12 +19,14 @@
   "license": "MIT",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "./icon.icns"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "screencapture"
+            "name": "Screen Capture"
           }
         },
         {
